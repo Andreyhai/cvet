@@ -1,0 +1,140 @@
+a {
+  color: black;
+}
+
+svg {
+  cursor: pointer;
+  max-height: 100px;
+  max-width: 100px;
+  min-height: 10px;
+  min-width: 1 0px;
+  height: 40%;
+  width: 40%;
+}
+
+.ingrid-darling-regular {
+  font-family: 'Ingrid Darling', cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.logo {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #4a1414;
+}
+
+.myInput {
+  background-color: rgba(217, 217, 217, 0.5);
+  border-radius: 50px;
+  border: 0.5px solid #ffffff;
+  width: 800px;
+  height: 60px;
+  padding-left: 30px;
+  margin: 20px 0;
+  font-size: 25px;
+}
+.xx {
+  display: flex;
+  gap: 50px;
+}
+
+.katt {
+  font-size: 40px;
+}
+
+/*                  выражения                     */
+
+@media (max-width: 2500px) {
+  .katt {
+    font-size: 30px;
+  }
+
+  .myInput {
+    width: 800px;
+    height: 60px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 2000px) {
+  .katt {
+    font-size: 30px;
+  }
+
+  .myInput {
+    width: 600px;
+    height: 50px;
+    margin: 15px 0;
+    font-size: 15px;
+  }
+
+  .logo {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 1700px) {
+  .katt {
+    font-size: 25px;
+  }
+
+  .myInput {
+    width: 450px;
+    height: 45px;
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 1400px) {
+  .katt {
+    font-size: x-large;
+  }
+
+  .myInput {
+    width: 300px;
+    height: 30px;
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .katt {
+    font-size: large;
+  }
+
+  .logo {
+    font-size: xx-large;
+  }
+}
+
+@media (max-width: 1000px) {
+  input {
+    display: none;
+  }
+
+  .list {
+    display: none;
+  }
+
+  .svgshka {
+    display: none;
+  }
+}
+
+/* @media screen and (max-width: 500px) {
+  header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  nav {
+    float: none;
+  }
+}  */

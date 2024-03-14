@@ -1,0 +1,37 @@
+.firstHeader {
+  background: #bc8f8f;
+}
+
+.headerTitle {
+  color: #ffffff;
+}
+
+@media (max-width: 1300px) {
+  .headerTitle {
+    font-size: large;
+  }
+}
+
+@media (max-width: 800px) {
+  .headerTitle {
+    font-size: medium;
+  }
+}
+
+@media (max-width: 700px) {
+  .headerTitle {
+    font-size: small;
+  }
+}
+
+@media (max-width: 550px) {
+  .headerTitle {
+    font-size: x-small;
+  }
+}
+
+@media (max-width: 550px) {
+  .headerTitle {
+    font-size: x-small;
+  }
+}

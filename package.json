@@ -3,19 +3,33 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.15.12",
+    "@mui/styles": "^5.15.12",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "autoprefixer": "^10.4.18",
+    "bootstrap": "^5.3.3",
+    "firebase": "^10.8.1",
+    "onedrive-api": "^1.1.1",
+    "postcss": "^8.4.35",
+    "postcss-cli": "^11.0.0",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.10.1",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.2",
     "react-scripts": "5.0.1",
+    "reactfire": "^4.2.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "npm run watch:css && react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "watch:css": "postcss src/styles/tailwind.css -o src/styles/output.css"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +48,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
   }
 }
